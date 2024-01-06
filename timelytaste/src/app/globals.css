@@ -1,3 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Adding css to section with className homepage */
+
+.homepage {
+  @apply grid;
+  grid-template-columns: .4fr .7fr;
+}

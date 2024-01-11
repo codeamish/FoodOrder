@@ -7,8 +7,10 @@ export default function Homepage() {
   return (
     <section className="homepage">
       <div className="py-8">
-        <h1 className="text-4xl font-semibold mt-5">A taste you'll remember</h1>
-        <p className="text-gray-600 mt-4">
+        <h1 className="text-4xl font-semibold mt-5 mb-5">A taste you'll 
+          <span className=" text-orange-500"> remember</span>
+        </h1>
+        <p className="text-gray-600 mt-5 mb-5">
           Browse menus, customize your order, and track your delivery in
           real-time – all with just a few clicks.Let Timely Taste fuel your next
           delicious discovery!
